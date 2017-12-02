@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSubmitNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Next" />
+
+        <TextView
+            android:id="@+id/txtperkenalan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSubmitNama"
+            android:layout_marginBottom="50dp"
+            android:text="Hallo, perkenalkan nama saya ada, saya yang akan membantu dalam menyelesaikan masalah yang sedang anda hadapi"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</FrameLayout>

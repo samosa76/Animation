@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uus.osa.sam.adahealthy.Fragment.QuestionFragment42">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/backtoQF32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_blur"
+            android:text="Submit"
+            android:textColor="#ddaeb0b1" />
+
+        <TextView
+            android:id="@+id/question42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnyes42"
+            android:layout_marginBottom="10dp"
+            android:text="ini contoh text yang seharusnya di buat"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnyes42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnmaybe42"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Yes" />
+
+        <Button
+            android:id="@+id/btnmaybe42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnno42"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="maybe" />
+
+        <Button
+            android:id="@+id/btnno42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="No" />
+
+    </RelativeLayout>
+
+</FrameLayout>

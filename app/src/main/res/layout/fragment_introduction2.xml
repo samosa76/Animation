@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.IntroductionFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/backtoIF"
+            android:textColor="#ddaeb0b1"
+            android:background="@drawable/button_blur"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:id="@+id/btnSubmitNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:text="Submit" />
+
+        <EditText
+            android:id="@+id/edtnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama :"
+            android:layout_above="@+id/btnSubmitNama"
+            android:layout_marginBottom="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harap masukan nama anda sebelum proses dimulai"
+            android:textSize="23sp"
+            android:id="@+id/txtinputnama"
+            android:layout_above="@+id/edtnama"
+            android:layout_marginBottom="35dp"/>
+    </RelativeLayout>
+</FrameLayout>
